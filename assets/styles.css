@@ -1,13 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body, html {
-    margin: 0;
-    padding: 0;
-}
 @import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
 
 :root{
@@ -15,6 +5,16 @@ body, html {
   --card-front-color: #AF3438;
   --card-back-color: #AF3438;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;}
 
 body {
   background: url(img/bg-desktop-green.webp);
